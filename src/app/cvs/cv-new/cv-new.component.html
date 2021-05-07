@@ -141,7 +141,7 @@
   <!-- INI: Languages -->
   <div class="d-flex justify-content-start">
     <h2>Idiomas:</h2>
-    <button class="btn btn-outline-primary ml-auto" (click)="addStudies()">Agregar nueva</button>
+    <button class="btn btn-outline-primary ml-auto" (click)="addLanguages()">Agregar nueva</button>
   </div>
   <hr />
   <div formArrayName="studies" *ngFor="let study of studies.controls; let i=index">
@@ -183,7 +183,7 @@
   <!-- INI: OtherKnowledge -->
   <div class="d-flex justify-content-start">
     <h2>Otros:</h2>
-    <button class="btn btn-outline-primary ml-auto" (click)="addStudies()">Agregar nueva</button>
+    <button class="btn btn-outline-primary ml-auto" (click)="addOtherKnowledges()">Agregar nueva</button>
   </div>
   <hr />
   <div formArrayName="studies" *ngFor="let study of studies.controls; let i=index">

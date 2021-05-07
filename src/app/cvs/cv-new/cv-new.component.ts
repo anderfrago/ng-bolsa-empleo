@@ -148,7 +148,7 @@ export class CvNewComponent implements OnInit {
   onSaveComplete(): void {
     // Reset the form to clear the flags
     this.cvForm.reset();
-    this.router.navigate(['']);
+    this.router.navigate(['cvs']);
   }
 
 }

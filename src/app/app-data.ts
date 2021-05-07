@@ -7,10 +7,10 @@ import { CvData } from './shared/cv-data';
 
 export class AppData implements InMemoryDbService {
 
-  createDb(): { offers: Offer[], cvs: Cv[] } {
-    const offers = OfferData.offers;
+  createDb(): { /*offers: Offer[],*/ cvs: Cv[] } {
+  //  const offers = OfferData.offers;
     const cvs = CvData.cvs;
 
-    return { offers, cvs };
+    return { /*offers,*/ cvs };
   }
 }
